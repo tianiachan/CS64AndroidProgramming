@@ -38,8 +38,7 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="252dp"
-        android:layout_weight="0.53"
+        android:layout_height="213dp"
         android:stretchColumns="1" >
 
         <TableRow>
@@ -47,7 +46,7 @@
             <Button
                 android:id="@+id/button7"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
@@ -60,7 +59,7 @@
             <Button
                 android:id="@+id/button8"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
@@ -73,7 +72,7 @@
             <Button
                 android:id="@+id/button9"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
@@ -89,7 +88,7 @@
             <Button
                 android:id="@+id/button4"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
@@ -102,7 +101,7 @@
             <Button
                 android:id="@+id/button5"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
@@ -115,7 +114,7 @@
             <Button
                 android:id="@+id/button6"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
@@ -131,7 +130,7 @@
             <Button
                 android:id="@+id/button1"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
@@ -144,7 +143,7 @@
             <Button
                 android:id="@+id/button2"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
@@ -157,7 +156,7 @@
             <Button
                 android:id="@+id/button3"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
@@ -173,7 +172,7 @@
             <Button
                 android:id="@+id/button0"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
@@ -186,7 +185,7 @@
             <Button
                 android:id="@+id/buttonPeriod"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
@@ -199,7 +198,7 @@
             <Button
                 android:id="@+id/buttonClear"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:onClick="btnClicked"
