@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name = "monolarge" parent = "@android:style/TextAppearance.Large">
+        <item name = "android:textSize">22sp</item><!-- dp is display sp is ALWAYS for text -->
+        <item name = "android:typeface">monospace</item>
+        <item name = "android:layout_width">fill_parent</item>
+        <item name = "android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name = "monolarge.Green"><!-- inheriting own customized style, cascading -->
+        <item name = "android:textColor">#00FF00</item>
+    </style>
+    
+    <style name = "monolarge.Green.center"><!-- can continue to inherit and cascade -->
+        <item name = "android:gravity">center_horizontal</item>
+    </style>
+    
+    <color name = "MyBGColor">#A9BCF5</color>
+    
+    <style name = "MyTheme" parent="android:Theme.Light">
+        <item name = "android:windowBackground">@color/MyBGColor</item>
+    </style>
+    
+    <color name = "MyBGColorBlue">#3385FF</color>
+    
+    <style name = "MyThemeBlue" parent="android:Theme.Light">
+        <item name = "android:windowBackground">@color/MyBGColorBlue</item>
+    </style>
+    
+</resources>
