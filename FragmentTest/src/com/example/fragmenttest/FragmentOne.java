@@ -21,7 +21,7 @@ public class FragmentOne extends Fragment
 		//create textview object
 		TextView tv = (TextView)view.findViewById(R.id.textview1);
 		//set image
-		iv.setImageResource(R.drawable.voyager16);
+		iv.setImageResource(R.drawable.download);
 		//set text
 		tv.setText("Live long and prosper!");
 		//return the view for use
