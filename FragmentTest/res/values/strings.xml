@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FragmentTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fragment_one">FragmentOne</string>
+    <string name="title_activity_fragment_two">FragmentTwo</string>
+    
+    <string-array name="STCaptains">
+        <item>Jonathan Archer</item>
+        <item>Christopher Pike</item>
+        <item>James T. Kirk</item>
+        <item>Spock</item>
+        <item>Hikaru Sulu</item>
+        <item>Jean-Luc Picard</item>
+        <item>Kathryn Janeway</item>
+        <item>Benjamin Sisko</item>
+        <item>William T. Riker</item>
+        <item>Owen Paris</item>
+    </string-array>
+
+</resources>

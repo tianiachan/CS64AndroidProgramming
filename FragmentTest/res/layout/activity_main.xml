@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fragmenttest.MainActivity" >
+
+    <fragment 
+        android:name = "com.example.fragmenttest.FragmentOne"
+        android:id="@+id/fragmentone"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:layout_centerHorizontal="true"/>
+    
+    <fragment
+        android:name="com.example.fragmenttest.FragmentTwo"
+        android:id="@+id/fragmenttwo"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/fragmentone"
+        android:layout_alignParentLeft="true"/>
+    
+    <Button
+        android:id="@+id/buttonQuit"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="Quit"
+        android:onClick="quit" />
+
+</LinearLayout>
