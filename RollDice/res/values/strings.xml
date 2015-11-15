@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RollDice</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Dice Rolling Game</string>
+    <string name="playername">Enter Player Name:</string>
+    <string name="playButton">Play Game!</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="welcome">Welcome to the game. Your goal is 
+        to beat the game random number by rolling the virtual dice. 
+        Click the \"Roll the dice button\" to try your luck.</string>
+    <string name="quit">Quit</string>
+    <string name="quitgame">Quit Game</string>
+    <string name="dialogtitlem">Enter user name</string>
+    <string name="dialogmessagem">You must enter player name.</string>
+    <string name="dialogok">Ok</string>
+
+</resources>
